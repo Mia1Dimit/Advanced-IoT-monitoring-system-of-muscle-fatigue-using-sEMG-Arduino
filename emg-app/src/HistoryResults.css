@@ -1,0 +1,70 @@
+.history-results-box {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px; 
+    margin-bottom: 20px;
+  }
+  .history-results-title {
+    font-size: 24px;
+    margin-bottom: 1; /* Remove bottom margin to reduce space */
+  }
+  
+  .patient-info {
+    display: flex;
+  }
+  
+  .patient-info-label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .patient-info-value {
+    font-weight: normal;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .patient-details-list {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 0;
+    flex: 0 0 10%; 
+  }
+  
+  
+  .patient-info-row {
+    margin-top: 0;
+    display: flex;
+    margin-bottom: 0;
+  }
+  
+  .info-item {
+    flex: 1;
+  }
+  
+  .info-label {
+    margin-top: 0;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
+  
+  .info-value {
+    margin: 0;
+  }
+  

@@ -1,0 +1,67 @@
+/* AccessHistory.css */
+.access-history-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .input-field {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue color */
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+  }
+  
+  .popup p {
+    margin: 0;
+  }
+  
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f4f4f4; /* Change background color to a light gray */
+    padding: 20px;
+    border-radius: 10px; /* Make outline corners curved */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add box shadow for a nice effect */
+  }
+  
+  .popup-content {
+    color: #333; /* Change text color to a darker gray */
+  }
+  
+  .popup ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0;
+  }
+  
+  .popup li {
+    margin: 5px 0; /* Add margin to separate each choice */
+    border: 1px solid #ccc; /* Add border for each choice */
+    border-radius: 10px; /* Make outline corners curved */
+    padding: 10px; /* Add padding for space inside the box */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .popup li:hover {
+    background-color: #e0e0e0; /* Change background color on hover */
+  }
+  
