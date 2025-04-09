@@ -1,3 +1,5 @@
+## Abstract
+
 In the modern era, integration of Internet of Things (IoT) technology in the field of sports has become essential as optimizing performance
 and rehabilitation is crucial for athletes. Surface Electromyography (sEMG) plays crucial role by providing real-time insights into muscle 
 function as coaches and scientists aim to enhance training schedules and prevent injuries of athletes. Monitoring sEMG is also critical in 
